@@ -14,7 +14,7 @@ import java.sql.*;
          {
             String url = "jdbc:mysql://localhost:3306/customer_managment"; 
 
-            Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+            Class.forName("com.mysql.jdbc.Driver");
             
             try
             {            	
